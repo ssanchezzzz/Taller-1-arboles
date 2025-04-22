@@ -1,0 +1,10 @@
+¿Qué son los Árboles de Huffman?
+Los Árboles de Huffman son una estructura de datos utilizada en algoritmos de compresión de datos, como la codificación de Huffman. Este tipo de árbol binario se construye de manera que los caracteres más frecuentes en un texto tengan códigos binarios más cortos, mientras que los caracteres menos frecuentes tienen códigos más largos. Esto permite reducir el tamaño total del texto codificado.
+
+El proceso de construcción de un Árbol de Huffman incluye los siguientes pasos:
+
+Calcular la frecuencia de cada carácter en el texto.
+Crear un nodo hoja para cada carácter y agregarlo a una cola de prioridad (min-heap).
+Combinar los dos nodos con las frecuencias más bajas en un nuevo nodo padre.
+Repetir el paso anterior hasta que quede un solo nodo, que será la raíz del árbol.
+El Árbol de Huffman se utiliza para generar códigos binarios únicos para cada carácter, lo que permite una compresión eficiente de datos.
